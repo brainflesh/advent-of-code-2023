@@ -31,7 +31,6 @@ int main()
             right--;
         }
         int line_code = (((*left) - '0') * 10) + ((*right) - '0');
-        std::cout << line << " " << line_code << std::endl;
         line_codes.push_back(line_code);
     }
     infile.close();
